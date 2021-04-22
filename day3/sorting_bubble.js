@@ -13,7 +13,7 @@ function bubble_sort (arr) {
             if(arr[j] > arr[j + 1]) {
                swap(arr, j, j + 1);
             }
-            // console.log(arr, arr[j], arr[j + 1]);
+            console.log(arr, arr[j], arr[j + 1]);
         }
         if(noSwap) break;
     }
@@ -23,4 +23,4 @@ function bubble_sort (arr) {
 
 
 
-bubble_sort([34, 5.6, 21, -Infinity, -5]);
+bubble_sort([34, 5.6, 8, 9, 10]);
