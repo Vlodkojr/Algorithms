@@ -15,8 +15,9 @@ function bubbleSort(arr) {
         }
         if(noSwapA) break;
     }
-    console.log(arr);
-    return arr;
+    let newStr = arr.join(' ');
+    console.log(newStr);
+    return newStr;
 }
 
 function swapA(arr, indx1, indx2) {
