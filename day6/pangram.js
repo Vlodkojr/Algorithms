@@ -8,4 +8,4 @@ function isPangram(text) {
     return true;
 }
 
-console.log(isPangram('the quick brown fox jumps over with lazy FX'));
+console.log(isPangram('the quick brown fox jumps over the lazy dog'));
